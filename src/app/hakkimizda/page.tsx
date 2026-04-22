@@ -7,7 +7,7 @@ import { companyInfo } from "@/data/projects";
 import { Contact } from "@/components/Contact";
 
 const stats = [
-  { icon: Building2, value: "50+", label: "Tamamlanan Proje" },
+  { icon: Building2, value: "20+", label: "Proje" },
   { icon: Users, value: "100+", label: "Mutlu Müşteri" },
   { icon: Award, value: "5+", label: "Yıllık Deneyim" },
   { icon: Clock, value: "24/7", label: "Destek" },
@@ -191,10 +191,28 @@ export default function HakkimizdaPage() {
 
       <section className="section-padding bg-white">
         <div className="container-custom">
-          <div className="max-w-3xl mx-auto">
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
             <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
+              initial={{ opacity: 0, x: -30 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6 }}
+            >
+              <div className="aspect-square relative">
+                <Image
+                  src="/images/founder/kurucu.jpg"
+                  alt="Mehmet Emin KARADAĞ"
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 1024px) 100vw, 50vw"
+                  priority
+                />
+              </div>
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, x: 30 }}
+              whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6 }}
             >
