@@ -156,7 +156,7 @@ export const companyInfo = {
   foundedYear: "2021",
   phone: "+90 (543) 960 71 46",
   email: "monartyapimimarlik@gmail.com",
-  website: "www.monartinsaat.com",
+  website: "www.monartmimarlik.com",
   social: "@monart.mimarlik",
   address: "Çeliktepe Mahallesi Buhara Sokak No: 11/8 Kağıthane / İSTANBUL",
   description: "MONART Mimarlık, 2021 yılında mimari tasarım, uygulama ve proje yönetimi alanlarında faaliyet göstermek üzere kurulmuştur. Kurulduğu günden bu yana farklı ölçeklerde birçok projeye imza atan MONART, mimarlığı yalnızca yapılar inşa etmek olarak değil; aynı zamanda bir yaşam biçimi, bir deneyim alanı olarak görmektedir."

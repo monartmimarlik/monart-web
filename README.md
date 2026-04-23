@@ -75,6 +75,6 @@ src/
 ## Geliştirici
 
 MONART İnşaat ve Mimarlık
-- Web: www.monartinsaat.com
+- Web: www.monartmimarlik.com
 - Email: monartyapimimralik@gmail.com
 - Tel: +90 (543) 960 71 46

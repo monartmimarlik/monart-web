@@ -74,7 +74,7 @@ export async function POST(request: Request) {
               </div>
             </div>
             <div class="footer">
-              Bu mesaj monartinsaat.com iletişim formu üzerinden gönderilmiştir.
+              Bu mesaj monartmimarlik.com iletişim formu üzerinden gönderilmiştir.
             </div>
           </div>
         </body>
