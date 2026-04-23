@@ -108,10 +108,10 @@ export function ProjectsGrid({
         )}
 
         <motion.div
+          key={activeCategory}
           variants={containerVariants}
           initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true, amount: 0.15, margin: "0px 0px -8% 0px" }}
+          animate="visible"
           className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8"
         >
           {displayedProjects.map((project) => (
