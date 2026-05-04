@@ -11,6 +11,7 @@ const organizationSchema = {
   name: "MONART İnşaat ve Mimarlık",
   alternateName: "Monart Mimarlık",
   url: siteUrl,
+  logo: `${siteUrl}/apple-touch-icon.png`,
   email: "monartyapimimarlik@gmail.com",
   telephone: "+90 543 960 71 46",
   address: {
@@ -53,6 +54,13 @@ export const metadata: Metadata = {
       "max-snippet": -1,
       "max-video-preview": -1,
     },
+  },
+  icons: {
+    icon: [
+      { url: "/favicon.ico", sizes: "any" },
+      { url: "/favicon-48x48.png", sizes: "48x48", type: "image/png" },
+    ],
+    apple: [{ url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" }],
   },
 };
 
